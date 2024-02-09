@@ -1,0 +1,69 @@
+body {
+  background-image: linear-gradient(#3b1566, #5f4da8);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container-aplicativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 5px;
+  transition: 50ms;
+}
+
+img:hover {
+  scale: 1.15;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.541);
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#informacoes-audio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+#voltar,
+#avancar {
+  font-size: 3rem;
+  transition: 50ms;
+}
+
+#voltar:active,
+#avancar:active {
+  scale: 0.9;
+}
+
+#playpause {
+  font-size: 4rem;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
